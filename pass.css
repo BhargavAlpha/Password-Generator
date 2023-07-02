@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0C0B10;;
+}
+.container{
+    padding:28px 32px;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+    margin-block: 8px;
+    color: #7E7C89;
+    font-size: 19px;
+    font-family: Monospaceland;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.912px;
+}
+.inputdiv{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #24232B;
+    margin-top: 20px;
+
+}
+
+.passbox{
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    height: 50px;
+    width: 370px;
+    color: #FFF;
+    font-size: 33px;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.231px;
+    background: #24232B;
+}
+
+#copy{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.slider{
+    background: red;
+    color: #A4FFAF;
+}
+
+
+.passdetails{
+    width: 480px;  
+    border: 1px solid black;
+    padding-left: 37px;
+    padding-right: 37px;
+    box-sizing: border-box;
+    background: #24232B;
+    margin-top: 20px;
+
+}
+.rowbox{
+    display: flex;
+    width: 406px;
+    margin-top:15px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.rowbox p{
+    color: #FFF;
+    font-size: 15px;
+    font-family: Monospaceland;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+.rowbox span{
+    color: #A4FFAF;
+    font-size: 29px;
+    font-family: Monospaceland;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.232px;
+}
+#slider{
+    width: 399px;
+    margin-block: 10px;
+
+}
+.constraintsbox{
+    width: 406px;
+    display: flex;
+    margin-block: 10px;
+}
+input[type="range"]{
+    background-color: #FFF;
+    color: #FFF;
+}
+.constraintsbox input[type="checkbox"] {
+    margin-right: 15px; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #FFF;
+    background: #24232B;
+    outline: none;
+    cursor: pointer;
+}
+.constraintsbox input[type="checkbox"]:checked{
+    border: 2px solid #FFF;
+    background: #A4FFAF;
+}
+
+.constraintsbox label{
+    flex: 1; 
+    color: #FFF;
+    font-size: 16px;
+    font-family: Monospaceland;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.432px;
+}
+.strengthbox{
+    background: #18171F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+    height: 63px;
+    box-sizing: border-box;
+    margin-block: 25px;
+}
+.strength{
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #82808E;
+    font-size: 15px;
+    font-family: Monospaceland;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.rectangles{
+    display: flex;
+    justify-content:space-between;
+    height: 100%; 
+    width: 70px;
+    height: 22px;
+    margin-right: 20px;
+}
+.rectangle {
+    width: 5px;
+    height: 22px;
+    border: 2.1px solid #FFF;
+    
+}
+#genButton{
+    background: #A4FFAF;
+    width: 420px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.image{
+    padding-left: 10px;
+}
+
+
+
+
+

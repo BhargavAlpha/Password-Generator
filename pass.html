@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="pass.css">
+    
+</head>
+<body>
+    <div class="container">
+       <h3>Password Generator</h3>
+
+       <div class="inputdiv">
+        <input type="text"  id="passbox" class="passbox" readonly />
+        <img src="copy.svg" alt="copy" id="copy">
+      </div>
+     
+      
+
+       <div class="passdetails">
+        <div class="rowbox">
+        <p>Character Length</p>
+        <span id="passLength">8</span>
+        </div>
+        <input id="slider" class="slider" type="range" value="0" min="1" max="10" placeholder="bhargav">
+        <div class="constraintsbox">
+            <input type="checkbox" name="lowercase" id="lowercase">
+            <label for="lowercase">Include Uppercase Letters</label>
+         </div>
+         <div class="constraintsbox">
+            <input type="checkbox" name="uppercase" id="uppercase">
+            <label for="uppercase">Include Lowerrcase Letters</label>
+         </div>
+         <div class="constraintsbox">
+            <input type="checkbox" name="numbers" id="numbers">
+            <label for="numbers">Include Numbers</label>
+         </div>
+         <div class="constraintsbox">
+            <input type="checkbox" name="symbols" id="symbols">
+            <label for="symbols">Include Symbols</label>
+         </div>
+         <div class="strengthbox">
+            <div class="strength">Strength</div>
+            <div class="rectangles">
+              <div class="rectangle" id="rec1"></div>
+              <div class="rectangle" id="rec2"></div>
+              <div class="rectangle" id="rec3"></div>
+              <div class="rectangle" id="rec4"></div>
+            </div>
+          </div>
+          <div id="genButton">
+               <p>GENERATE</p>
+               <img src="Vector.svg" alt="Vector Image" class="image">
+          </div>
+
+       </div>
+
+    </div>
+    <script src="pass.js"></script>
+</body>
+</html>
